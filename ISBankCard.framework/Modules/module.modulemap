@@ -1,0 +1,6 @@
+framework module ISBankCard {
+  umbrella header "ISBankCard.h"
+
+  export *
+  module * { export * }
+}
