@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHOCR"
-  s.version      = "0.0.4"
+  s.version      = "0.0.6"
   s.summary      = "HHOCR."
 
   # This description is used to generate tags and improve search results.
@@ -67,8 +67,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   #s.platform     = :ios
+   s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   s.ios.deployment_target = "8.0"
@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-   s.frameworks = "AssetsLibrary"
+   s.weak_frameworks = "AssetsLibrary"
    s.vendored_frameworks = "HHOCR/ISBankCard.framework","HHOCR/opencv2.framework","HHOCR/ISOpenSDKFoundation.embeddedframework/ISOpenSDKFoundation.framework"
 
   # s.library   = "iconv"
@@ -138,5 +138,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  #spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 end
