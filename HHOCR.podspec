@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHOCR"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "HHOCR."
 
   # This description is used to generate tags and improve search results.
@@ -134,9 +134,9 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-
+  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 end
