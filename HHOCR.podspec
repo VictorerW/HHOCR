@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHOCR"
-  s.version      = "0.0.17"
+  s.version      = "0.0.18"
   s.summary      = "HHOCR."
 
   # This description is used to generate tags and improve search results.
@@ -125,7 +125,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = "HHOCR/ISBankCard.framework","HHOCR/opencv2.framework","HHOCR/ISOpenSDKFoundation.embeddedframework/ISOpenSDKFoundation.framework"
 
   # s.library   = "iconv"
-   s.libraries = "stdc++"
+   s.librarie = "stdc++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -136,8 +136,9 @@ Pod::Spec.new do |s|
 
    s.requires_arc = true
 
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/ISOpenSDKFoundation.embeddedframework" }
+ #s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/ISOpenSDKFoundation.embeddedframework" }
   # s.dependency "JSONKit", "~> 1.4"
  #s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
  # s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 end
+
