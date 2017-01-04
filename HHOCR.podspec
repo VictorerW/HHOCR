@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHOCR"
-  s.version      = "0.0.21"
+  s.version      = "0.0.23"
   s.summary      = "HHOCR."
 
   # This description is used to generate tags and improve search results.
@@ -121,11 +121,11 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-   s.ios.frameworks = "AssetsLibrary","AVFoundation"
+  # s.ios.frameworks = "AssetsLibrary","AVFoundation"
   s.ios.vendored_frameworks = "HHOCR/ISBankCard.framework","HHOCR/opencv2.framework","HHOCR/ISOpenSDKFoundation.embeddedframework/ISOpenSDKFoundation.framework"
 
   # s.library   = "iconv"
-   s.library = "stdc++"
+  #s.library = "stdc++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
