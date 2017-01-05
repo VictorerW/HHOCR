@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHOCR"
-  s.version      = "0.0.29"
+  s.version      = "0.0.30"
   s.summary      = "HHOCR."
 
   # This description is used to generate tags and improve search results.
@@ -109,7 +109,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-   s.resources = "HHOCR/ISOpenSDKFoundation.embeddedframework/Resources/*.png"
+  # s.resources = "HHOCR/ISOpenSDKFoundation.embeddedframework/Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
